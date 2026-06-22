@@ -64,7 +64,70 @@ body{
     margin-left: 10%;
 }
 
-.form-group:has(input:required, select:required, textarea:required, date:required) label::after {
-    content: "*";
-    color: red;
-  }
+#description{
+    opacity: 0.5;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#text2{
+    margin: 0%;
+    margin-top: 2%;
+}
+
+#input{
+    display: flex;
+}
+
+#name{
+    margin-right: 40px;
+    height: 30px;
+    width: 300px;
+    border-radius: 6px;
+    border: 0.5px solid rgb(104, 103, 103);
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    padding-left: 5px;
+}   
+
+.subname{
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    margin-top: 2%;
+}
+
+#date{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(104, 103, 103);
+}
+
+.gentext{
+    font-size: 20px;
+    padding: 1%;
+}
+
+.gender{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}   
+
+.trashbin{
+    width:20px;
+    height:20px;
+    float: right;
+}
+
+.add-option{
+    border-radius: 20px;
+    border: 1px solid rgb(104, 103, 103);
+    background-color: rgb(255, 255, 255);
+}
+
+#submit{
+    align-items: center;
+}

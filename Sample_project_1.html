@@ -31,18 +31,78 @@
             <section id="form">
                 <h1 id="text1">Personal Information</h1>
                 
-                <form action="" class="form-group">
+                <form action="">
                     <h2 id="text2"><label for="name" >Name:</label></h2> 
                     <p id="description">Description (optional):</p>
-                    <section id="input">
-                    <input type="text" id="name" name="name" placeholder="Type a placeholder" required>
-                    <input type="text" id="name" name="name" placeholder="Type a placeholder">
+
+                    <div id="input">
+                        <section>
+                            <input type="text" id="name" name="name" placeholder="Type your placeholder">
+                            <p class="subname">First Name</p>
+                        </section>
+
+                        <section>
+                            <input type="text" id="name" name="name" placeholder="Type your placeholder">
+                            <p class="subname">Last Name</p>
+                        </section>
+                    </div>
+
+                    <h2 id="text2"><label for="date" >Date:</label></h2> 
+                    <p id="description">Description (optional):</p>
+
+                    <div id="input">
+                        <section>
+                            <input type="date" id="date" name="date" placeholder="Type your placeholder">
+                            <p class="subname">Date</p>
+                        </section>
+                    </div>
+
+                    <h2 id="text2"><label for="gender" >Gender:</label></h2>
+                    <p id="description">Description (optional):</p>
+
+                    <div>
+                        <section class="gender">
+                        <input type="radio" name="gender">
+                        <label for="male" class="gentext">Male</label>
+                        <img src="trashbin.png" alt="trashbin" class="trashbin">
+                        </section>
+                        <section class="gender">
+                        <input type="radio" name="gender">
+                        <label for="female" class="gentext">Female</label>
+                        <img src="trashbin.png" alt="trashbin" class="trashbin">
+                        </section>
+
+                        <section>
+                            <button class="add-option">Add option</button>
+                            <button class="add-option">Add "Other" option</button>
+                        </section>
+                    </div>
+
+                    <h2 id="text2"><label for="email" >Email:</label></h2>
+                    <p id="description">Please provide your email address.</p>
+
+                    <div id="input">
+                        <section>
+                            <input type="email" id="name" name="email" placeholder="Type your placeholder">
+                            <p class="subname">Email Address</p>
+                        </section>
+                    </div>
+
+                    <h2 id="text2"><label for="phone" >Phone:</label></h2>
+                    <p id="description">Please provide your phone number.</p>
+
+                    <div id="input">
+                        <section>
+                            <input type="tel" id="name" name="phone" placeholder="Type your placeholder">
+                            <p class="subname">Phone Number</p>
+                        </section>
+                    </div>
+
+                    <section style="text-align: center;">
+                    <button type="submit" id="submit" onclick="alert('Form submitted!')">Submit</button>
                     </section>
                 </form>
             </section>
         </div>
     </body>
 </html>
-
-
-
