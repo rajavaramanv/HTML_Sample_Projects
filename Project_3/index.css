@@ -3,22 +3,89 @@
     padding: 0%;
 }
 
-.header{
-    background-color: rgb(42, 92, 29);
-    padding: 20px;
-}
-
-ul,li,h1,.headleft{
+ul,li{
     display: inline;
-    color: white;
+    cursor: pointer;
 }
 
 li:hover{
     color: black;
-    text-decoration: underline;
 }
 
-.headright{
-    float: right;
+ul{
     margin-top: 10px;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(179, 180, 175);
+    padding: 15px;
+    justify-content: space-between;
+    color: white;
+}
+
+.divcontainer{
+    display: flex;
+}
+
+.leftdiv,.rightdiv{
+    width: 50%;
+}
+
+.divcontainer h1{
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divcontainer p{
+    padding: 20px;
+}
+
+.leftdiv{
+    background-image: url(panda.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.leftdiv:hover{
+    opacity: 1;
+}
+
+.img1 img,.img2 img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.rightdiv{
+    background-color: aliceblue;
+}
+
+.imagediv{
+    display: flex;
+    padding: 30px;
+}
+
+.img1 img{
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.img2 img{
+    top: 100px;
+    right: 30px;
+    z-index: 2;
+}
+
+.text{
+    text-align: center;
+    margin:0%;
+    padding: 0%;
+    margin-top: 70px;
+}
+
+.text h1,.text p{
+    padding: 5px;
 }
