@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: rgb(42, 92, 29);
+    padding: 20px;
+}
+
+ul,li,h1,.headleft{
+    display: inline;
+    color: white;
+}
+
+li:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.headright{
+    float: right;
+    margin-top: 10px;
+}
