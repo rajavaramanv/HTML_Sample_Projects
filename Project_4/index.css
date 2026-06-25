@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    padding: 10px;
+}
+
+.green{
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.blue{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue .one,.blue .two,.blue .three{
+    width: 30%;
+    height: 250px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.grey{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grey div{
+    flex-basis: 23%;
+    height: 150px;
+    background-color: gray;
+    margin: 5px;
+}
+
+@media screen and (min-width :600px) and (max-width :1000px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+    .blue{
+        display: block;
+    }
+
+    .blue .one,.blue .two,.blue .three{
+        width: 100%;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .grey div{
+        flex-basis: 48%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+    .blue{
+        display: block;
+    }
+
+    .blue .one,.blue .two,.blue .three{
+        width: 100%;
+        height: 75px;
+        margin: 1px;
+    }
+
+    .grey .four{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        margin: 2px;
+    }
+
+    .grey{
+        display: block;
+    }
+    .grey .one,.grey .two,.grey .three{
+        display: none;
+    }
+}
