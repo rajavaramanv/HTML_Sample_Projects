@@ -47,6 +47,12 @@
     padding: 10px;
     margin-top: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.bottem-head h3:hover{
+    opacity: 1;
 }
 
 .bottem-search-icon{
@@ -80,7 +86,10 @@
     background-image: url(https://shorturl.at/gav1K);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    opacity: 0.8;
 }
+
 
 .right-section{
     height: 100%;
@@ -96,6 +105,8 @@
     background-size: cover;
     margin-left: 10px;
     margin-right: 10px;
+    position: relative;
+    opacity: 0.8;
 }
 
 .right-sec-bottem{
@@ -107,18 +118,88 @@
 .right-sec-bottem-1{
     width:50%;
     height: 250px;
-    background-image: url(https://picsum.photos/id/237/260/210);
+    background-image: url(https://loremflickr.com/260/210/hockey);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 10px;
     margin-right: 10px;
+    opacity: 0.8;
 }
 
 .right-sec-bottem-2{
     width: 50%;
     height: 250px;
-    background-image: url(https://picsum.photos/id/240/260/210);
+    background-image: url(https://loremflickr.com/260/210/football);
     background-repeat: no-repeat;
     background-size: cover; 
     margin-right: 10px;
+    opacity: 0.8;
+}
+
+.left-section h1{
+    color: rgba(0, 0, 0,0.9);
+    float: right;
+    position: relative;
+    top: 90%;
+    right: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left-section:hover{
+    opacity: 1;
+}
+
+.right-sec-top h2{
+    color: rgba(0, 0, 0,0.9);
+    position: relative;
+    top:85%;
+    left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.right-sec-top:hover{
+    opacity: 1;
+}
+
+.right-sec-bottem-1 h3{
+    color: rgba(0, 0, 0,0.9);
+    position: relative;
+    top:80%;
+    left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right-sec-bottem-1:hover{
+    opacity: 1;
+}
+
+.right-sec-bottem-2 h3{
+    color: rgba(0, 0, 0,0.9);
+    position: relative;
+    top:85%;
+    left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right-sec-bottem-2:hover{
+    opacity: 1;
+}
+
+.news-div{
+    display: flex;
+}
+
+.news-img{
+    width: 75%;
+    height: 700px;
+    background-color: brown;
+    margin: 20px;
+}
+
+.news-text{
+    width: 25%;
+    height: 700px;
+    background-color: blue;
+    margin: 20px;
 }
